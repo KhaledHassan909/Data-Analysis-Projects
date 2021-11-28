@@ -2,7 +2,7 @@
 
 This Repository includes all Data Analysis Projects I have worked on till now
 
-SKills these Projects coverd are:
+SKills coverd in projects are:
 * Python 3.0
 * Postgresql
 * Tableau ( BI tool )
