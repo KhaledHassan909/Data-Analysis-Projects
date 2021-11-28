@@ -1,3 +1,8 @@
+![alt text](https://i2.wp.com/evilleeye.com/wp-content/uploads/2017/07/ford-gobike-emeryville-04.jpg?fit=1600%2C1200&ssl=1)
+
+
+
+
 # Effects of user characteristics on Ford Go-Bike rent duration
 
 ### Investigation Overview
