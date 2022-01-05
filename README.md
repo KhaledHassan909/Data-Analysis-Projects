@@ -16,7 +16,7 @@ Now, I focus on programming & dealing with BI tools conducting analysis on topic
 * Jupyter Notebooks
 
 ## Contact Me
-| Contact Method | | |
+| Contact Method | |
 | ------------- |:-------------:|
 | E-mail        | Khaled.hassan.j909@gmail.com
 | LinkedIn      | https://www.linkedin.com/in/khaled-hassan-7553b7105/
