@@ -14,3 +14,10 @@ Now, I focus on programming & dealing with BI tools conducting analysis on topic
 * Postgresql
 * Tableau ( BI tool )
 * Jupyter Notebooks
+
+## Contact Me
+| Contact Method | | |
+| ------------- |:-------------:| -----:|
+| E-mail        | Khaled.hassan.j909@gmail.com |
+| LinkedIn      | https://www.linkedin.com/in/khaled-hassan-7553b7105/ |
+| Phone         | +201142066464 |
