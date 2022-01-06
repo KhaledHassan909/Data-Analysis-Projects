@@ -13,7 +13,7 @@ Now, I focus on programming & dealing with BI tools conducting analysis on topic
 ## Technologies used
 * Python 3.0
 * Postgresql
-* Tableau ( BI tool )
+* Tableau ( BI tool ) Profile >> https://public.tableau.com/app/profile/khaled.hassan1017
 * Jupyter Notebooks
 
 ## Contact Me
