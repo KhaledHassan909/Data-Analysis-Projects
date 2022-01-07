@@ -1,0 +1,1717 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20213.21.0917.1006                               -->
+<workbook source-build='2021.3.1 (20213.21.0917.1006)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Databel - Data' inline='true' name='federated.1w7x3m70jlqkji10rp5421av6g47' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Databel - Data' name='textscan.12aa5em1rpcvnl13s36oo0azb4mc'>
+            <connection class='textscan' directory='C:/Users/ea/Documents/PROJECTS/Case Study - Analyzing Customer Churn in Tableau' filename='Databel - Data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.12aa5em1rpcvnl13s36oo0azb4mc' name='Databel - Data.csv' table='[Databel - Data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='Customer ID' ordinal='0' />
+            <column datatype='string' name='Churn Label' ordinal='1' />
+            <column datatype='integer' name='Account Length (in months)' ordinal='2' />
+            <column datatype='integer' name='Local Calls' ordinal='3' />
+            <column datatype='real' name='Local Mins' ordinal='4' />
+            <column datatype='integer' name='Intl Calls' ordinal='5' />
+            <column datatype='real' name='Intl Mins' ordinal='6' />
+            <column datatype='string' name='Intl Active' ordinal='7' />
+            <column datatype='string' name='Intl Plan' ordinal='8' />
+            <column datatype='real' name='Extra International Charges' ordinal='9' />
+            <column datatype='integer' name='Customer Service Calls' ordinal='10' />
+            <column datatype='integer' name='Avg Monthly GB Download' ordinal='11' />
+            <column datatype='string' name='Unlimited Data Plan' ordinal='12' />
+            <column datatype='integer' name='Extra Data Charges' ordinal='13' />
+            <column datatype='string' name='State' ordinal='14' />
+            <column datatype='string' name='Phone Number' ordinal='15' />
+            <column datatype='string' name='Gender' ordinal='16' />
+            <column datatype='integer' name='Age' ordinal='17' />
+            <column datatype='string' name='Under 30' ordinal='18' />
+            <column datatype='string' name='Senior' ordinal='19' />
+            <column datatype='string' name='Group' ordinal='20' />
+            <column datatype='integer' name='Number of Customers in Group' ordinal='21' />
+            <column datatype='string' name='Device Protection &amp; Online Backup' ordinal='22' />
+            <column datatype='string' name='Contract Type' ordinal='23' />
+            <column datatype='string' name='Payment Method' ordinal='24' />
+            <column datatype='integer' name='Monthly Charge' ordinal='25' />
+            <column datatype='integer' name='Total Charges' ordinal='26' />
+            <column datatype='string' name='Churn Category' ordinal='27' />
+            <column datatype='string' name='Churn Reason' ordinal='28' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.12aa5em1rpcvnl13s36oo0azb4mc' name='Databel - Data.csv' table='[Databel - Data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='Customer ID' ordinal='0' />
+            <column datatype='string' name='Churn Label' ordinal='1' />
+            <column datatype='integer' name='Account Length (in months)' ordinal='2' />
+            <column datatype='integer' name='Local Calls' ordinal='3' />
+            <column datatype='real' name='Local Mins' ordinal='4' />
+            <column datatype='integer' name='Intl Calls' ordinal='5' />
+            <column datatype='real' name='Intl Mins' ordinal='6' />
+            <column datatype='string' name='Intl Active' ordinal='7' />
+            <column datatype='string' name='Intl Plan' ordinal='8' />
+            <column datatype='real' name='Extra International Charges' ordinal='9' />
+            <column datatype='integer' name='Customer Service Calls' ordinal='10' />
+            <column datatype='integer' name='Avg Monthly GB Download' ordinal='11' />
+            <column datatype='string' name='Unlimited Data Plan' ordinal='12' />
+            <column datatype='integer' name='Extra Data Charges' ordinal='13' />
+            <column datatype='string' name='State' ordinal='14' />
+            <column datatype='string' name='Phone Number' ordinal='15' />
+            <column datatype='string' name='Gender' ordinal='16' />
+            <column datatype='integer' name='Age' ordinal='17' />
+            <column datatype='string' name='Under 30' ordinal='18' />
+            <column datatype='string' name='Senior' ordinal='19' />
+            <column datatype='string' name='Group' ordinal='20' />
+            <column datatype='integer' name='Number of Customers in Group' ordinal='21' />
+            <column datatype='string' name='Device Protection &amp; Online Backup' ordinal='22' />
+            <column datatype='string' name='Contract Type' ordinal='23' />
+            <column datatype='string' name='Payment Method' ordinal='24' />
+            <column datatype='integer' name='Monthly Charge' ordinal='25' />
+            <column datatype='integer' name='Total Charges' ordinal='26' />
+            <column datatype='string' name='Churn Category' ordinal='27' />
+            <column datatype='string' name='Churn Reason' ordinal='28' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Customer ID]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Customer ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Churn Label</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Churn Label]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Churn Label</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Account Length (in months)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Account Length (in months)]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Account Length (in months)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Local Calls</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Local Calls]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Local Calls</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Local Mins</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Local Mins]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Local Mins</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Intl Calls</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Intl Calls]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Intl Calls</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Intl Mins</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Intl Mins]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Intl Mins</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Intl Active</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Intl Active]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Intl Active</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Intl Plan</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Intl Plan]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Intl Plan</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Extra International Charges</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Extra International Charges]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Extra International Charges</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer Service Calls</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Customer Service Calls]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Customer Service Calls</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg Monthly GB Download</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Avg Monthly GB Download]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Avg Monthly GB Download</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unlimited Data Plan</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Unlimited Data Plan]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Unlimited Data Plan</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Extra Data Charges</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Extra Data Charges]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Extra Data Charges</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Phone Number</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Phone Number]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Phone Number</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Under 30</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Under 30]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Under 30</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Senior</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Senior]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Senior</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Group]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Group</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Customers in Group</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Customers in Group]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Number of Customers in Group</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Device Protection &amp; Online Backup</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Device Protection &amp; Online Backup]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Device Protection &amp; Online Backup</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Contract Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Contract Type]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Contract Type</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Payment Method</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Payment Method]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Payment Method</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Monthly Charge</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Monthly Charge]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Monthly Charge</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Charges</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Charges]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Total Charges</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Churn Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Churn Category]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Churn Category</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Churn Reason</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Churn Reason]</local-name>
+            <parent-name>[Databel - Data.csv]</parent-name>
+            <remote-alias>Churn Reason</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.1w7x3m70jlqkji10rp5421av6g47].[ctd:Customer ID:qk]&quot;' value='No of Customers' />
+        </aliases>
+      </column>
+      <column aggregation='None' caption='Age (bin)' datatype='integer' name='[Age (bin) 2]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='5' />
+      </column>
+      <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+      <column caption='Churned' datatype='integer' name='[Calculation_1767944377598062594]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='CASE [Churn Label] WHEN &quot;No&quot; THEN 0&#13;&#10;ELSE 1&#13;&#10;END' />
+      </column>
+      <column caption='Number of Churned Customers' datatype='integer' name='[Calculation_1767944377600921603]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Calculation_1767944377598062594])' />
+      </column>
+      <column caption='Churned Rate' datatype='real' default-format='p0.00%' name='[Calculation_1767944377601101828]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_1767944377600921603] / COUNT([Customer ID])' />
+      </column>
+      <column caption='Metric' datatype='real' name='[Calculation_2503438492093759488]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='CASE [Parameters].[Parameter 1]&#13;&#10;WHEN &quot;Number of Customers&quot; THEN COUNT([Customer ID])&#13;&#10;WHEN &quot;Number of Churned Customers&quot; THEN COUNT([Calculation_1767944377598062594])&#13;&#10;WHEN &quot;Avg Monthly Charge&quot; THEN AVG([Monthly Charge])&#13;&#10;WHEN &quot;Avg Customer Service Calls&quot; THEN AVG([Customer Service Calls])&#13;&#10;END' />
+      </column>
+      <column datatype='string' name='[Customer ID]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Group]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;No&quot;' value='Not in Group' />
+          <alias key='&quot;Yes&quot;' value='In Group' />
+        </aliases>
+      </column>
+      <column datatype='integer' default-format='c#,##0,.00K&quot;$&quot;;-#,##0,.00K&quot;$&quot;' name='[Monthly Charge]' role='measure' type='quantitative' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Databel - Data.csv' datatype='table' name='[__tableau_internal_object_id__].[Databel - Data.csv_1347592AD056467CBB7D070D1054D443]' role='measure' type='quantitative' />
+      <column-instance column='[Monthly Charge]' derivation='Avg' name='[avg:Monthly Charge:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age]' derivation='Count' name='[cnt:Age:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Monthly Charge]' derivation='Count' name='[cnt:Monthly Charge:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Customer ID]' derivation='CountD' name='[ctd:Customer ID:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Monthly Charge]' derivation='CountD' name='[ctd:Monthly Charge:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Group]' derivation='None' name='[none:Group:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Monthly Charge]' derivation='Sum' name='[sum:Monthly Charge:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1767944377601101828]' derivation='User' name='[usr:Calculation_1767944377601101828:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_2503438492093759488]' derivation='User' name='[usr:Calculation_2503438492093759488:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='0.925' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' parameter-percentage='0.075' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1w7x3m70jlqkji10rp5421av6g47].[cnt:Age:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1w7x3m70jlqkji10rp5421av6g47].[avg:Monthly Charge:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1w7x3m70jlqkji10rp5421av6g47].[cnt:Monthly Charge:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1w7x3m70jlqkji10rp5421av6g47].[ctd:Monthly Charge:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1w7x3m70jlqkji10rp5421av6g47].[sum:Monthly Charge:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1w7x3m70jlqkji10rp5421av6g47]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1w7x3m70jlqkji10rp5421av6g47].[usr:Calculation_1767944377601101828:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1w7x3m70jlqkji10rp5421av6g47].[usr:Calculation_2503438492093759488:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1w7x3m70jlqkji10rp5421av6g47].[ctd:Customer ID:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Group:nk]' type='palette'>
+            <map to='#1f77b4'>
+              <bucket>&quot;Yes&quot;</bucket>
+            </map>
+            <map to='#7f7f7f'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;USA&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <datasource-dependencies datasource='Parameters'>
+        <column caption='Pick Metric' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;Avg Monthly Charge&quot;'>
+          <calculation class='tableau' formula='&quot;Avg Monthly Charge&quot;' />
+        </column>
+      </datasource-dependencies>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Databel - Data.csv' id='Databel - Data.csv_1347592AD056467CBB7D070D1054D443'>
+            <properties context=''>
+              <relation connection='textscan.12aa5em1rpcvnl13s36oo0azb4mc' name='Databel - Data.csv' table='[Databel - Data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='string' name='Customer ID' ordinal='0' />
+                  <column datatype='string' name='Churn Label' ordinal='1' />
+                  <column datatype='integer' name='Account Length (in months)' ordinal='2' />
+                  <column datatype='integer' name='Local Calls' ordinal='3' />
+                  <column datatype='real' name='Local Mins' ordinal='4' />
+                  <column datatype='integer' name='Intl Calls' ordinal='5' />
+                  <column datatype='real' name='Intl Mins' ordinal='6' />
+                  <column datatype='string' name='Intl Active' ordinal='7' />
+                  <column datatype='string' name='Intl Plan' ordinal='8' />
+                  <column datatype='real' name='Extra International Charges' ordinal='9' />
+                  <column datatype='integer' name='Customer Service Calls' ordinal='10' />
+                  <column datatype='integer' name='Avg Monthly GB Download' ordinal='11' />
+                  <column datatype='string' name='Unlimited Data Plan' ordinal='12' />
+                  <column datatype='integer' name='Extra Data Charges' ordinal='13' />
+                  <column datatype='string' name='State' ordinal='14' />
+                  <column datatype='string' name='Phone Number' ordinal='15' />
+                  <column datatype='string' name='Gender' ordinal='16' />
+                  <column datatype='integer' name='Age' ordinal='17' />
+                  <column datatype='string' name='Under 30' ordinal='18' />
+                  <column datatype='string' name='Senior' ordinal='19' />
+                  <column datatype='string' name='Group' ordinal='20' />
+                  <column datatype='integer' name='Number of Customers in Group' ordinal='21' />
+                  <column datatype='string' name='Device Protection &amp; Online Backup' ordinal='22' />
+                  <column datatype='string' name='Contract Type' ordinal='23' />
+                  <column datatype='string' name='Payment Method' ordinal='24' />
+                  <column datatype='integer' name='Monthly Charge' ordinal='25' />
+                  <column datatype='integer' name='Total Charges' ordinal='26' />
+                  <column datatype='string' name='Churn Category' ordinal='27' />
+                  <column datatype='string' name='Churn Reason' ordinal='28' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='Pick Metric' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;Avg Monthly Charge&quot;'>
+        <calculation class='tableau' formula='&quot;Avg Monthly Charge&quot;' />
+        <members>
+          <member value='&quot;Number of Customers&quot;' />
+          <member value='&quot;Number of Churned Customers&quot;' />
+          <member value='&quot;Avg Monthly Charge&quot;' />
+          <member value='&quot;Avg Customer Service Calls&quot;' />
+        </members>
+      </column>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Age Distribution churn rate'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Databel - Data' name='federated.1w7x3m70jlqkji10rp5421av6g47' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1w7x3m70jlqkji10rp5421av6g47'>
+            <column aggregation='None' caption='Age (bin)' datatype='integer' name='[Age (bin) 2]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='5' />
+            </column>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Churned' datatype='integer' name='[Calculation_1767944377598062594]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='CASE [Churn Label] WHEN &quot;No&quot; THEN 0&#13;&#10;ELSE 1&#13;&#10;END' />
+            </column>
+            <column caption='Number of Churned Customers' datatype='integer' name='[Calculation_1767944377600921603]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_1767944377598062594])' />
+            </column>
+            <column caption='Churned Rate' datatype='real' default-format='p0.00%' name='[Calculation_1767944377601101828]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_1767944377600921603] / COUNT([Customer ID])' />
+            </column>
+            <column datatype='string' name='[Churn Label]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Customer ID]' role='dimension' type='nominal' />
+            <column-instance column='[Age]' derivation='Count' name='[cnt:Age:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age (bin) 2]' derivation='None' name='[none:Age (bin) 2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1767944377601101828]' derivation='User' name='[usr:Calculation_1767944377601101828:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1w7x3m70jlqkji10rp5421av6g47].[usr:Calculation_1767944377601101828:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.1w7x3m70jlqkji10rp5421av6g47].[usr:Calculation_1767944377601101828:qk]' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <color column='[federated.1w7x3m70jlqkji10rp5421av6g47].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-markers-mode' value='auto' />
+                <format attr='line-interpolation' value='linear' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1w7x3m70jlqkji10rp5421av6g47].[cnt:Age:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <color column='[federated.1w7x3m70jlqkji10rp5421av6g47].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-markers-mode' value='auto' />
+                <format attr='line-interpolation' value='linear' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1w7x3m70jlqkji10rp5421av6g47].[usr:Calculation_1767944377601101828:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1w7x3m70jlqkji10rp5421av6g47].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-style' value='italic' />
+                <format attr='font-weight' value='bold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-markers-mode' value='auto' />
+                <format attr='size' value='2.1988949775695801' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='selection' />
+                <format attr='line-interpolation' value='linear' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1w7x3m70jlqkji10rp5421av6g47].[cnt:Age:qk] + [federated.1w7x3m70jlqkji10rp5421av6g47].[usr:Calculation_1767944377601101828:qk])</rows>
+        <cols>[federated.1w7x3m70jlqkji10rp5421av6g47].[none:Age (bin) 2:qk]</cols>
+        <show-full-range>
+          <column>[federated.1w7x3m70jlqkji10rp5421av6g47].[Age (bin) 2]</column>
+          <column>[federated.1w7x3m70jlqkji10rp5421av6g47].[Age (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{FB3036C1-F30A-4841-AF4C-3667E0AEE4C8}' />
+    </worksheet>
+    <worksheet name='Churn Reasons'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Databel - Data' name='federated.1w7x3m70jlqkji10rp5421av6g47' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1w7x3m70jlqkji10rp5421av6g47'>
+            <column caption='Churned' datatype='integer' name='[Calculation_1767944377598062594]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='CASE [Churn Label] WHEN &quot;No&quot; THEN 0&#13;&#10;ELSE 1&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Churn Label]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Churn Reason]' role='dimension' type='nominal' />
+            <column-instance column='[Churn Reason]' derivation='None' name='[none:Churn Reason:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1767944377598062594]' derivation='Sum' name='[pcto:sum:Calculation_1767944377598062594:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Calculation_1767944377598062594]' derivation='Sum' name='[sum:Calculation_1767944377598062594:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1w7x3m70jlqkji10rp5421av6g47].[none:Churn Reason:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1w7x3m70jlqkji10rp5421av6g47].[sum:Calculation_1767944377598062594:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.1w7x3m70jlqkji10rp5421av6g47].[sum:Calculation_1767944377598062594:qk]' value='33' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1w7x3m70jlqkji10rp5421av6g47].[none:Churn Reason:nk]' value='22' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1w7x3m70jlqkji10rp5421av6g47].[none:Churn Reason:nk]' value='240' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1w7x3m70jlqkji10rp5421av6g47].[pcto:sum:Calculation_1767944377598062594:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1w7x3m70jlqkji10rp5421av6g47].[none:Churn Reason:nk]</rows>
+        <cols>[federated.1w7x3m70jlqkji10rp5421av6g47].[sum:Calculation_1767944377598062594:qk]</cols>
+      </table>
+      <simple-id uuid='{FE935B3A-28FB-470F-91AE-C4AD8AD074B6}' />
+    </worksheet>
+    <worksheet name='Churn Reasons 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Databel - Data' name='federated.1w7x3m70jlqkji10rp5421av6g47' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1w7x3m70jlqkji10rp5421av6g47'>
+            <column caption='Churned' datatype='integer' name='[Calculation_1767944377598062594]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='CASE [Churn Label] WHEN &quot;No&quot; THEN 0&#13;&#10;ELSE 1&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Churn Category]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Churn Label]' role='dimension' type='nominal' />
+            <column-instance column='[Churn Category]' derivation='None' name='[none:Churn Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1767944377598062594]' derivation='Sum' name='[pcto:sum:Calculation_1767944377598062594:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Calculation_1767944377598062594]' derivation='Sum' name='[sum:Calculation_1767944377598062594:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='1375' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1w7x3m70jlqkji10rp5421av6g47].[sum:Calculation_1767944377598062594:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='size-bar' field='[federated.1w7x3m70jlqkji10rp5421av6g47].[pcto:sum:Calculation_1767944377598062594:qk:2]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1w7x3m70jlqkji10rp5421av6g47].[sum:Calculation_1767944377598062594:qk]' />
+              <color column='[federated.1w7x3m70jlqkji10rp5421av6g47].[sum:Calculation_1767944377598062594:qk]' />
+              <text column='[federated.1w7x3m70jlqkji10rp5421av6g47].[none:Churn Category:nk]' />
+              <text column='[federated.1w7x3m70jlqkji10rp5421av6g47].[sum:Calculation_1767944377598062594:qk]' />
+              <text column='[federated.1w7x3m70jlqkji10rp5421av6g47].[pcto:sum:Calculation_1767944377598062594:qk:2]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{8776564A-87D4-4A83-9C92-7016F66B491A}' />
+    </worksheet>
+    <worksheet name='Group churn rates'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Databel - Data' name='federated.1w7x3m70jlqkji10rp5421av6g47' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1w7x3m70jlqkji10rp5421av6g47'>
+            <column caption='Churned' datatype='integer' name='[Calculation_1767944377598062594]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='CASE [Churn Label] WHEN &quot;No&quot; THEN 0&#13;&#10;ELSE 1&#13;&#10;END' />
+            </column>
+            <column caption='Number of Churned Customers' datatype='integer' name='[Calculation_1767944377600921603]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_1767944377598062594])' />
+            </column>
+            <column caption='Churned Rate' datatype='real' default-format='p0.00%' name='[Calculation_1767944377601101828]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_1767944377600921603] / COUNT([Customer ID])' />
+            </column>
+            <column datatype='string' name='[Churn Label]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Customer ID]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Group]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;No&quot;' value='Not in Group' />
+                <alias key='&quot;Yes&quot;' value='In Group' />
+              </aliases>
+            </column>
+            <column-instance column='[Customer ID]' derivation='CountD' name='[ctd:Customer ID:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Group]' derivation='None' name='[none:Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1767944377598062594]' derivation='Sum' name='[sum:Calculation_1767944377598062594:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1767944377601101828]' derivation='User' name='[usr:Calculation_1767944377601101828:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1w7x3m70jlqkji10rp5421av6g47].[none:Group:nk]' />
+              <wedge-size column='[federated.1w7x3m70jlqkji10rp5421av6g47].[sum:Calculation_1767944377598062594:qk]' />
+              <tooltip column='[federated.1w7x3m70jlqkji10rp5421av6g47].[ctd:Customer ID:qk]' />
+              <tooltip column='[federated.1w7x3m70jlqkji10rp5421av6g47].[sum:Calculation_1767944377598062594:qk]' />
+              <text column='[federated.1w7x3m70jlqkji10rp5421av6g47].[usr:Calculation_1767944377601101828:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-size' value='14' />
+                <format attr='font-style' value='italic' />
+                <format attr='color' value='#1b1b1b' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='size' value='1.5932043790817261' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{71D9E33A-814E-4EFA-82D2-96FB46AF8CA7}' />
+    </worksheet>
+    <worksheet name='Groups'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Databel - Data' name='federated.1w7x3m70jlqkji10rp5421av6g47' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1w7x3m70jlqkji10rp5421av6g47'>
+            <column caption='Churned' datatype='integer' name='[Calculation_1767944377598062594]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='CASE [Churn Label] WHEN &quot;No&quot; THEN 0&#13;&#10;ELSE 1&#13;&#10;END' />
+            </column>
+            <column caption='Number of Churned Customers' datatype='integer' name='[Calculation_1767944377600921603]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_1767944377598062594])' />
+            </column>
+            <column caption='Churned Rate' datatype='real' default-format='p0.00%' name='[Calculation_1767944377601101828]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_1767944377600921603] / COUNT([Customer ID])' />
+            </column>
+            <column datatype='string' name='[Churn Label]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Customer ID]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Group]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;No&quot;' value='Not in Group' />
+                <alias key='&quot;Yes&quot;' value='In Group' />
+              </aliases>
+            </column>
+            <column datatype='integer' default-format='c#,##0,.00K&quot;$&quot;;-#,##0,.00K&quot;$&quot;' name='[Monthly Charge]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Number of Customers in Group]' role='measure' type='quantitative' />
+            <column-instance column='[Monthly Charge]' derivation='Avg' name='[avg:Monthly Charge:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Group]' derivation='None' name='[none:Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Customers in Group]' derivation='None' name='[none:Number of Customers in Group:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_1767944377601101828]' derivation='User' name='[usr:Calculation_1767944377601101828:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1w7x3m70jlqkji10rp5421av6g47].[usr:Calculation_1767944377601101828:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.1w7x3m70jlqkji10rp5421av6g47].[usr:Calculation_1767944377601101828:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1w7x3m70jlqkji10rp5421av6g47].[:Measure Names]' value='154' />
+            <format attr='width' field='[federated.1w7x3m70jlqkji10rp5421av6g47].[none:Group:nk]' value='101' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1w7x3m70jlqkji10rp5421av6g47].[avg:Monthly Charge:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1w7x3m70jlqkji10rp5421av6g47].[none:Group:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1w7x3m70jlqkji10rp5421av6g47].[usr:Calculation_1767944377601101828:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.1w7x3m70jlqkji10rp5421av6g47].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1w7x3m70jlqkji10rp5421av6g47].[avg:Monthly Charge:qk] + [federated.1w7x3m70jlqkji10rp5421av6g47].[usr:Calculation_1767944377601101828:qk])</rows>
+        <cols>[federated.1w7x3m70jlqkji10rp5421av6g47].[none:Number of Customers in Group:ok]</cols>
+      </table>
+      <simple-id uuid='{093D371E-9DAF-4678-A5EC-4CF97D89210B}' />
+    </worksheet>
+    <worksheet name='Groups (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Databel - Data' name='federated.1w7x3m70jlqkji10rp5421av6g47' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='Pick Metric' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;Avg Monthly Charge&quot;'>
+              <calculation class='tableau' formula='&quot;Avg Monthly Charge&quot;' />
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.1w7x3m70jlqkji10rp5421av6g47'>
+            <column caption='Churned' datatype='integer' name='[Calculation_1767944377598062594]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='CASE [Churn Label] WHEN &quot;No&quot; THEN 0&#13;&#10;ELSE 1&#13;&#10;END' />
+            </column>
+            <column caption='Number of Churned Customers' datatype='integer' name='[Calculation_1767944377600921603]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_1767944377598062594])' />
+            </column>
+            <column caption='Churned Rate' datatype='real' default-format='p0.00%' name='[Calculation_1767944377601101828]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_1767944377600921603] / COUNT([Customer ID])' />
+            </column>
+            <column caption='Metric' datatype='real' name='[Calculation_2503438492093759488]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='CASE [Parameters].[Parameter 1]&#13;&#10;WHEN &quot;Number of Customers&quot; THEN COUNT([Customer ID])&#13;&#10;WHEN &quot;Number of Churned Customers&quot; THEN COUNT([Calculation_1767944377598062594])&#13;&#10;WHEN &quot;Avg Monthly Charge&quot; THEN AVG([Monthly Charge])&#13;&#10;WHEN &quot;Avg Customer Service Calls&quot; THEN AVG([Customer Service Calls])&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Churn Label]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Customer ID]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Customer Service Calls]' role='measure' type='quantitative' />
+            <column datatype='integer' default-format='c#,##0,.00K&quot;$&quot;;-#,##0,.00K&quot;$&quot;' name='[Monthly Charge]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Number of Customers in Group]' role='measure' type='quantitative' />
+            <column-instance column='[Number of Customers in Group]' derivation='None' name='[none:Number of Customers in Group:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_1767944377601101828]' derivation='User' name='[usr:Calculation_1767944377601101828:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2503438492093759488]' derivation='User' name='[usr:Calculation_2503438492093759488:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1w7x3m70jlqkji10rp5421av6g47].[usr:Calculation_1767944377601101828:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1w7x3m70jlqkji10rp5421av6g47].[:Measure Names]' value='154' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1w7x3m70jlqkji10rp5421av6g47].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1w7x3m70jlqkji10rp5421av6g47].[usr:Calculation_2503438492093759488:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1w7x3m70jlqkji10rp5421av6g47].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1w7x3m70jlqkji10rp5421av6g47].[usr:Calculation_1767944377601101828:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.1w7x3m70jlqkji10rp5421av6g47].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1w7x3m70jlqkji10rp5421av6g47].[usr:Calculation_2503438492093759488:qk] + [federated.1w7x3m70jlqkji10rp5421av6g47].[usr:Calculation_1767944377601101828:qk])</rows>
+        <cols>[federated.1w7x3m70jlqkji10rp5421av6g47].[none:Number of Customers in Group:ok]</cols>
+      </table>
+      <simple-id uuid='{3B3FBFCC-116E-4B52-BAE0-6292B713629B}' />
+    </worksheet>
+    <worksheet name='Map'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Databel - Data' name='federated.1w7x3m70jlqkji10rp5421av6g47' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1w7x3m70jlqkji10rp5421av6g47'>
+            <column caption='Churned' datatype='integer' name='[Calculation_1767944377598062594]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='CASE [Churn Label] WHEN &quot;No&quot; THEN 0&#13;&#10;ELSE 1&#13;&#10;END' />
+            </column>
+            <column caption='Number of Churned Customers' datatype='integer' name='[Calculation_1767944377600921603]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_1767944377598062594])' />
+            </column>
+            <column caption='Churned Rate' datatype='real' default-format='p0.00%' name='[Calculation_1767944377601101828]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_1767944377600921603] / COUNT([Customer ID])' />
+            </column>
+            <column datatype='string' name='[Churn Label]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Customer ID]' role='dimension' type='nominal' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Customer ID]' derivation='CountD' name='[ctd:Customer ID:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1767944377598062594]' derivation='Sum' name='[sum:Calculation_1767944377598062594:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1767944377601101828]' derivation='User' name='[usr:Calculation_1767944377601101828:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1w7x3m70jlqkji10rp5421av6g47].[Longitude (generated)]' field-type='quantitative' max='35370604.249345891' min='17319154.038207926' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1w7x3m70jlqkji10rp5421av6g47].[Latitude (generated)]' field-type='quantitative' max='11990671.112873163' min='1675556.2453870636' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1w7x3m70jlqkji10rp5421av6g47].[none:State:nk]' />
+              <tooltip column='[federated.1w7x3m70jlqkji10rp5421av6g47].[ctd:Customer ID:qk]' />
+              <tooltip column='[federated.1w7x3m70jlqkji10rp5421av6g47].[sum:Calculation_1767944377598062594:qk]' />
+              <color column='[federated.1w7x3m70jlqkji10rp5421av6g47].[usr:Calculation_1767944377601101828:qk]' />
+              <geometry column='[federated.1w7x3m70jlqkji10rp5421av6g47].[Geometry (generated)]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>State:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1w7x3m70jlqkji10rp5421av6g47].[none:State:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Number of Customers:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1w7x3m70jlqkji10rp5421av6g47].[ctd:Customer ID:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Churned Customers:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1w7x3m70jlqkji10rp5421av6g47].[sum:Calculation_1767944377598062594:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Churned Rate:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1w7x3m70jlqkji10rp5421av6g47].[usr:Calculation_1767944377601101828:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+          </pane>
+        </panes>
+        <rows>[federated.1w7x3m70jlqkji10rp5421av6g47].[Latitude (generated)]</rows>
+        <cols>[federated.1w7x3m70jlqkji10rp5421av6g47].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{5735715B-7197-404F-80F6-CBBE7EAD0294}' />
+    </worksheet>
+    <worksheet name='Sheet 7'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Databel - Data' name='federated.1w7x3m70jlqkji10rp5421av6g47' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1w7x3m70jlqkji10rp5421av6g47'>
+            <column datatype='string' name='[Customer ID]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Group]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;No&quot;' value='Not in Group' />
+                <alias key='&quot;Yes&quot;' value='In Group' />
+              </aliases>
+            </column>
+            <column datatype='integer' default-format='c#,##0,.00K&quot;$&quot;;-#,##0,.00K&quot;$&quot;' name='[Monthly Charge]' role='measure' type='quantitative' />
+            <column-instance column='[Customer ID]' derivation='CountD' name='[ctd:Customer ID:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Group]' derivation='None' name='[none:Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Monthly Charge]' derivation='Sum' name='[sum:Monthly Charge:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1w7x3m70jlqkji10rp5421av6g47].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1w7x3m70jlqkji10rp5421av6g47].[sum:Monthly Charge:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1w7x3m70jlqkji10rp5421av6g47].[ctd:Customer ID:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1w7x3m70jlqkji10rp5421av6g47].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.1w7x3m70jlqkji10rp5421av6g47].[Multiple Values]' value='72' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1w7x3m70jlqkji10rp5421av6g47].[:Measure Names]' value='115' />
+            <format attr='text-format' field='[federated.1w7x3m70jlqkji10rp5421av6g47].[sum:Monthly Charge:qk]' value='c#,##0,.00K&quot;$&quot;;-#,##0,.00K&quot;$&quot;' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height' field='[federated.1w7x3m70jlqkji10rp5421av6g47].[none:Group:nk]' value='10' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1w7x3m70jlqkji10rp5421av6g47].[:Measure Names]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'><![CDATA[<[federated.1w7x3m70jlqkji10rp5421av6g47].[:Measure Names]>:	]]></run>
+                <run bold='true'><![CDATA[<[federated.1w7x3m70jlqkji10rp5421av6g47].[Multiple Values]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1w7x3m70jlqkji10rp5421av6g47].[Multiple Values]</rows>
+        <cols>([federated.1w7x3m70jlqkji10rp5421av6g47].[none:Group:nk] / [federated.1w7x3m70jlqkji10rp5421av6g47].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{A4EBA6CE-0AA8-4664-BD95-D4259B493BC7}' />
+    </worksheet>
+    <worksheet name='Sheet 8'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Databel - Data' name='federated.1w7x3m70jlqkji10rp5421av6g47' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1w7x3m70jlqkji10rp5421av6g47'>
+            <column caption='Churned' datatype='integer' name='[Calculation_1767944377598062594]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='CASE [Churn Label] WHEN &quot;No&quot; THEN 0&#13;&#10;ELSE 1&#13;&#10;END' />
+            </column>
+            <column caption='Number of Churned Customers' datatype='integer' name='[Calculation_1767944377600921603]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_1767944377598062594])' />
+            </column>
+            <column caption='Churned Rate' datatype='real' default-format='p0.00%' name='[Calculation_1767944377601101828]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_1767944377600921603] / COUNT([Customer ID])' />
+            </column>
+            <column datatype='string' name='[Churn Label]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Customer ID]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Group]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;No&quot;' value='Not in Group' />
+                <alias key='&quot;Yes&quot;' value='In Group' />
+              </aliases>
+            </column>
+            <column datatype='integer' default-format='c#,##0,.00K&quot;$&quot;;-#,##0,.00K&quot;$&quot;' name='[Monthly Charge]' role='measure' type='quantitative' />
+            <column-instance column='[Customer ID]' derivation='CountD' name='[ctd:Customer ID:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Group]' derivation='None' name='[none:Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Monthly Charge]' derivation='Sum' name='[sum:Monthly Charge:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1767944377601101828]' derivation='User' name='[usr:Calculation_1767944377601101828:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1w7x3m70jlqkji10rp5421av6g47].[none:Group:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1w7x3m70jlqkji10rp5421av6g47].[ctd:Customer ID:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1w7x3m70jlqkji10rp5421av6g47].[sum:Monthly Charge:qk]' field-type='quantitative' fold='true' max='220000' min='0' range-type='fixed' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.1w7x3m70jlqkji10rp5421av6g47].[sum:Monthly Charge:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.1w7x3m70jlqkji10rp5421av6g47].[:Measure Names]' value=''>
+              <formatted-text />
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='line-interpolation' value='linear' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1w7x3m70jlqkji10rp5421av6g47].[ctd:Customer ID:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1w7x3m70jlqkji10rp5421av6g47].[:Measure Names]' />
+              <text column='[federated.1w7x3m70jlqkji10rp5421av6g47].[usr:Calculation_1767944377601101828:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-style' value='italic' />
+                <format attr='font-size' value='12' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='line-interpolation' value='linear' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1w7x3m70jlqkji10rp5421av6g47].[sum:Monthly Charge:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <lod column='[federated.1w7x3m70jlqkji10rp5421av6g47].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-style' value='italic' />
+                <format attr='font-size' value='11' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='2' />
+                <format attr='line-interpolation' value='linear' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='range' />
+                <format attr='mark-color' value='#a0cbe8' />
+                <format attr='has-stroke' value='true' />
+                <format attr='mark-transparency' value='150' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1w7x3m70jlqkji10rp5421av6g47].[ctd:Customer ID:qk] + [federated.1w7x3m70jlqkji10rp5421av6g47].[sum:Monthly Charge:qk])</rows>
+        <cols>[federated.1w7x3m70jlqkji10rp5421av6g47].[none:Group:nk]</cols>
+      </table>
+      <simple-id uuid='{3FFDCAAF-4605-4AB2-84F6-693C41A46575}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Churn Reasons'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{9DEDCA27-EB3C-4BA0-A3A5-CE263B956A13}' />
+    </window>
+    <window class='worksheet' name='Churn Reasons 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1w7x3m70jlqkji10rp5421av6g47].[sum:Calculation_1767944377598062594:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{6628519D-DC34-4724-B501-5D7D4687909D}' />
+    </window>
+    <window class='worksheet' name='Map'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1w7x3m70jlqkji10rp5421av6g47].[usr:Calculation_1767944377601101828:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C650F365-14F0-4D3F-8ACF-F1AB8AB606FC}' />
+    </window>
+    <window class='worksheet' name='Age Distribution churn rate'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.1w7x3m70jlqkji10rp5421av6g47].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{982E5C4F-3153-4A57-ACD4-6F8B20DF3476}' />
+    </window>
+    <window class='worksheet' name='Group churn rates'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1w7x3m70jlqkji10rp5421av6g47].[none:Group:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{7DF2ECD9-F746-40D0-AD5A-5FB5D1A80FC4}' />
+    </window>
+    <window class='worksheet' name='Sheet 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1w7x3m70jlqkji10rp5421av6g47].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{6EB8D168-3768-44E2-ACC5-F3BF65062EC7}' />
+    </window>
+    <window class='worksheet' name='Sheet 8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1w7x3m70jlqkji10rp5421av6g47].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{48D63D55-6C1C-48A3-901F-48387ED98F32}' />
+    </window>
+    <window class='worksheet' name='Groups'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.1w7x3m70jlqkji10rp5421av6g47].[:Measure Names]' type='color' />
+            <card pane-specification-id='1' param='[federated.1w7x3m70jlqkji10rp5421av6g47].[none:Group:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{779946DD-4669-44AB-9EE0-421F1ECEC4B6}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Groups (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='3' param='[federated.1w7x3m70jlqkji10rp5421av6g47].[:Measure Names]' type='color' />
+            <card mode='compact' param='[Parameters].[Parameter 1]' type='parameter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{3E2B4812-60EA-4E3C-A2E7-3E616AE0410D}' />
+    </window>
+  </windows>
+</workbook>
