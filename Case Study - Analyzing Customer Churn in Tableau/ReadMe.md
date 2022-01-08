@@ -7,3 +7,7 @@ This Tableau case study aims to investigate a dataset from an example telecom co
 Analyzing churn doesn’t just mean knowing what the churn rate is: it’s also about figuring out why customers are churning at the rate they are, and how to reduce churn.
 Investigating churn rate is done by answering questions by creating calculated fields and various visualizations in Tableau, such as dual-axis graphs and scatter plots making graphs dynamic 
 by using filters and parameters, and combining everything into a story to share insights.
+
+
+### Payment Method & Account Length
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
