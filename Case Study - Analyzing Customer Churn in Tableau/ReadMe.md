@@ -11,4 +11,4 @@ by using filters and parameters, and combining everything into a story to share 
 ## Dashboards
 
 ##### Payment Method & Account Length
-<img src="https://media.giphy.com/media/UqBoq0LHT4CTLVNFz7/giphy.gif" width="700" height="500" />
+<img src="https://drive.google.com/file/d/1vNXu7evUC5Nynqg1nIPjZId7E3L7Rdpa/view?usp=sharing" width="700" height="500" />
