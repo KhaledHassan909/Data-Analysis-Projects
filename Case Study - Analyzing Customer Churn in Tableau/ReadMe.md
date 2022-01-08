@@ -1,3 +1,5 @@
+![alt text](https://nextommerce.com/wp-content/uploads/2019/04/pasted-image-0.png)
+
 ## About
 
 For subscription-based businesses, reducing customer churn is a top priority.
