@@ -11,4 +11,4 @@ by using filters and parameters, and combining everything into a story to share 
 ## Dashboards
 
 ##### Payment Method & Account Length
-![Alt Text](https://media.giphy.com/media/8emB3N3hczVyHfBK7B/giphy.mp4)
+![Alt Text](https://media.giphy.com/media/8emB3N3hczVyHfBK7B/giphy.gif)
