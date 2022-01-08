@@ -8,6 +8,7 @@ Analyzing churn doesn’t just mean knowing what the churn rate is: it’s also 
 Investigating churn rate is done by answering questions by creating calculated fields and various visualizations in Tableau, such as dual-axis graphs and scatter plots making graphs dynamic 
 by using filters and parameters, and combining everything into a story to share insights.
 
+## Dashboards
 
-### Payment Method & Account Length
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+##### Payment Method & Account Length
+![Alt Text](https://media.giphy.com/media/8emB3N3hczVyHfBK7B/giphy.mp4)
