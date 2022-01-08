@@ -12,3 +12,4 @@ by using filters and parameters, and combining everything into a story to share 
 
 ##### Payment Method & Account Length
 ![Alt Text](https://media.giphy.com/media/UqBoq0LHT4CTLVNFz7/giphy.gif)
+<img src="https://media.giphy.com/media/UqBoq0LHT4CTLVNFz7/giphy.gif" width="40" height="40" />
