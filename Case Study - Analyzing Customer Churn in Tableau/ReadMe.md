@@ -11,7 +11,7 @@ by using filters and parameters, and combining everything into a story to share 
 ## Dashboards
 
 ##### Overview Dashboard
-![Alt Text](https://gfycat.com/classicbravekestrel.mp4)
+![Alt Text](https://giant.gfycat.com/ClassicBraveKestrel.mp4)
 
 
 
