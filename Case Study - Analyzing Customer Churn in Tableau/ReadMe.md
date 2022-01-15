@@ -14,7 +14,7 @@ by using filters and parameters, and combining everything into a story to share 
 ![Alt Text](https://i.imgur.com/GRMAF6I.gif)
 
 ##### Payment Method & Account Length Dashboard
-![Alt Text](https://imgur.com/a/WPmm4Mj.gif)
+![Alt Text](https://imgur.com/a/WPmm4Mj)
 
 
 
