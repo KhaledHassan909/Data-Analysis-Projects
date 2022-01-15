@@ -11,6 +11,6 @@ by using filters and parameters, and combining everything into a story to share 
 ## Dashboards
 
 ##### Overview Dashboard
-![grab-landing-page](https://github.com/winnie1312/grab/blob/master/grab-landingpage-winnie.gif)
+![grab-landing-page](https://github.com/KhaledHassan909/Data-Analysis-Projects/blob/master/Case%20Study%20-%20Analyzing%20Customer%20Churn%20in%20Tableau/Videos/Overview.mp4)
 
 
