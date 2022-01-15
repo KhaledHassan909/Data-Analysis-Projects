@@ -11,7 +11,7 @@ by using filters and parameters, and combining everything into a story to share 
 ## Dashboards
 
 ##### Overview Dashboard
-![Alt Text](https://imgur.com/a/WPmm4Mj)
+![Alt Text](https://imgur.com/a/WPmm4Mj.gif)
 
 
 
