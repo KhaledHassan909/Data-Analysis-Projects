@@ -11,4 +11,4 @@ by using filters and parameters, and combining everything into a story to share 
 ## Dashboards
 
 ##### Overview Dashboard
-<img src="https://i.imgur.com/lVaUaWy.gif" width="40" height="40" />
+<img src="https://imgur.com/a/1QbXXs7" width="40" height="40" />
