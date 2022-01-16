@@ -10,15 +10,21 @@ by using filters and parameters, and combining everything into a story to share 
 
 ## Dashboards
 
-
-![Payment Method   Account Length](https://user-images.githubusercontent.com/49237531/149668738-c270f1cd-8059-4174-b9e9-68b76a33474a.gif)
-
-
-
+#### Overview
 ![Overview (2)](https://user-images.githubusercontent.com/49237531/149670669-d3d0189f-9f9d-46fb-a071-5e4268fdbd2d.gif)
 
 
+
+#### Age Buckets Groups 
+![Age-Buckets-groups (1)](https://user-images.githubusercontent.com/49237531/149676009-bc0f9ad1-7774-4c2d-bd39-17722a4c571a.gif)
+
+
+
+#### Payment Method with Account Length
+![Payment Method   Account Length](https://user-images.githubusercontent.com/49237531/149668738-c270f1cd-8059-4174-b9e9-68b76a33474a.gif)
+
+
+#### Gender, Age, Account Length with Churn Rate
 ![Gender-Age-Account-Length-Gender](https://user-images.githubusercontent.com/49237531/149671328-a2ff9694-1b49-4b24-a2c4-5e1b6340dad6.gif)
 
 
-![Age-Buckets-groups (1)](https://user-images.githubusercontent.com/49237531/149676009-bc0f9ad1-7774-4c2d-bd39-17722a4c571a.gif)
