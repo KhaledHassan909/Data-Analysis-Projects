@@ -11,4 +11,4 @@ by using filters and parameters, and combining everything into a story to share 
 ## Dashboards
 
 ##### Overview Dashboard
-![](https://i.imgur.com/lVaUaWy.gif)
+<img src="https://i.imgur.com/lVaUaWy.gif" width="40" height="40" />
