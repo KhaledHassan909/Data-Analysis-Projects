@@ -11,4 +11,4 @@ by using filters and parameters, and combining everything into a story to share 
 ## Dashboards
 
 ##### Overview Dashboard
-<gif src="https://imgur.com/a/1QbXXs7" width="40" height="40" />
+![Uploading Payment Method & Account Length.gif…]()
