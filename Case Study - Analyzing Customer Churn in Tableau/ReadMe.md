@@ -19,3 +19,6 @@ by using filters and parameters, and combining everything into a story to share 
 
 
 ![Gender-Age-Account-Length-Gender](https://user-images.githubusercontent.com/49237531/149671328-a2ff9694-1b49-4b24-a2c4-5e1b6340dad6.gif)
+
+
+![Age-Buckets-groups (1)](https://user-images.githubusercontent.com/49237531/149676009-bc0f9ad1-7774-4c2d-bd39-17722a4c571a.gif)
